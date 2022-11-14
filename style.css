@@ -28,6 +28,7 @@ td {
 td:hover {
     background-color: grey;
     transform: scale(1.1);
+    border-radius: 5px;
 }
 
 th:hover {
