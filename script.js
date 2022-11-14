@@ -28,5 +28,5 @@ fetch("https://jsonplaceholder.typicode.com/users").then(res => res.json())
 function func(tp) {
     // alert(`clicked on ${tp}`);
 
-    window.open('../userposts/userposts.html?postId=' + tp);
+    window.open('userposts/userposts.html?postId=' + tp);
 }
