@@ -1,0 +1,37 @@
+div[id^="card"] {
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid black;
+    /* text-align: center; */
+    color: white;
+    background-color: black;
+    width: 46%;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: skyblue;
+}
+
+.fa {
+    float: right;
+    padding: 3px;
+}
+
+.fa-remove {
+    color: red;
+}
+
+.fa-edit,
+.fa-save {
+    color: grey;
+}
+
+input[id^="check"] {
+    float: right;
+    height: 25px;
+    width: 25px;
+    margin: 5px 3px 3px 3px;
+}

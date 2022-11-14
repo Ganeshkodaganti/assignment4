@@ -1,3 +1,7 @@
+body {
+    background-color: skyblue;
+}
+
 #table {
     border: 1px solid black;
     margin: auto;
@@ -6,7 +10,7 @@
 }
 
 th {
-    background-color: skyblue;
+    background-color: tomato;
     text-align: center;
     margin: auto;
     padding: 10px;
@@ -19,4 +23,12 @@ td {
     text-align: center;
     margin: auto;
     padding: 10px;
+}
+
+td:hover {
+    background-color: grey;
+}
+
+th:hover {
+    background-color: red;
 }

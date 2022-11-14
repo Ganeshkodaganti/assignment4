@@ -13,7 +13,7 @@ fetch("https://jsonplaceholder.typicode.com/users").then(res => res.json())
         window.tr = "";
         for (let i = 0; i < data.length; ++i) {
 
-            window.tr += `<tr onclick="func(${i})" class="row">
+            window.tr += `<tr onclick="func(${i+1})" class="row">
             <td>${data[i].name}</td>
             <td>${data[i].email}</td> 
             <td>${data[i].phone}</td>
@@ -26,5 +26,7 @@ fetch("https://jsonplaceholder.typicode.com/users").then(res => res.json())
     })
 
 function func(tp) {
-    alert(`clicked on ${tp}`);
+    // alert(`clicked on ${tp}`);
+
+    window.open('../userposts/userposts.html?postId=' + tp);
 }
