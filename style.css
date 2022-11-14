@@ -1,5 +1,5 @@
 body {
-    background-color: skyblue;
+    background-color: rgba(63, 71, 75, 0.322);
 }
 
 #table {
@@ -27,8 +27,11 @@ td {
 
 td:hover {
     background-color: grey;
+    transform: scale(1.1);
 }
 
 th:hover {
     background-color: red;
+    transform: scale(1.1);
+    border-radius: 5px;
 }
